@@ -1,0 +1,12 @@
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and ( max-width:479px )
+{
+	p{
+		color: #f00 ;	/* 赤色 */
+	}
+  
+  .wrapper{
+    width: auto ;
+    padding: 0 10px ;	/* 左右の余白 */
+  }
+}
